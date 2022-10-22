@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+   height: 150vh;
+   background-size: cover;
+   background-image: url("bg.jpg");
+   background-position: bottom left;
+   animation: astronaut 5s linear infinite;
+}
+
+img{
+    position: relative;
+    left: 300px;
+    width: 230px;
+    top: 500px;
+
+}
+
+
+@keyframes astronaut{
+    from{background-position: bottom left;}
+    to{background-position: bottom right;}
+    
+}

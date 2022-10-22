@@ -1,2 +1,2 @@
 # Astro-Animation
-Simple animation using just HTML and CSS.
+Simple animation of an astronaut using just HTML and CSS
